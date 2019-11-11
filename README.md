@@ -3,5 +3,5 @@
 
 ## 特征工程相关
 
-《Feature Engineering for Machine Learning》 [思维导图](./Feature Engineering for Machine Learning)
+《Feature Engineering for Machine Learning》 [思维导图](  https://github.com/cjn-chen/machine_learn_reading_notes/tree/master/Feature Engineering for Machine Learning)
 

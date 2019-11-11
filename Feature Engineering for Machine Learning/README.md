@@ -4,9 +4,9 @@
 
 **注意：**书中关于TF-IDF的公式以及PCA的证明部分可能有误。
 
-[思维导图jpg](./Feature Engineering for Machine Learning.jpeg)
+[思维导图jpg]( https://github.com/cjn-chen/machine_learn_reading_notes/tree/master/Feature Engineering for Machine Learning.jpeg)
 
-[思维导图html](./Feature Engineering for Machine Learning.html)H5格式阅读体验更好。
+[思维导图html]( https://github.com/cjn-chen/machine_learn_reading_notes/tree/master/Feature Engineering for Machine Learning.html)H5格式阅读体验更好。
 
 
 
