@@ -70,7 +70,7 @@ plt.legend([a.collections[0], b, c],
 plt.show()
 ```
 
-![](I:\cjn\learning\课外编程学习\祖传代码\cjn\machine_learn_reading_notes\outliner_detection\pic\isolation_forest1.png)
+![](./pic/isolation_forest1.png)
 
 ### 1.3 自己修改的，X_train能够改成自己需要的数据
 
@@ -124,7 +124,7 @@ plt.legend([a.collections[0], b, c],
 plt.show()
 ```
 
-![](I:\cjn\learning\课外编程学习\祖传代码\cjn\machine_learn_reading_notes\outliner_detection\pic\isolation_forest2.png)
+![](./pic/isolation_forest2.png)
 
 ### 1.4 核心代码
 
@@ -190,7 +190,7 @@ array([ 1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,
 
 设定两个参数，eps表示聚类点为中心划定邻域，min_samples表示每个邻域内需要多少个样本点。
 
-![](I:\cjn\learning\课外编程学习\祖传代码\cjn\machine_learn_reading_notes\outliner_detection\pic\isolation_forest3.png)
+![](./pic/isolation_forest3.png)
 
 ### 2.1 DBSCAN demo
 
@@ -290,7 +290,7 @@ if __name__ == "__main__":
 [-1  0  1  2  3] 聚类簇的个数为： 4
 ```
 
-![](I:\cjn\learning\课外编程学习\祖传代码\cjn\machine_learn_reading_notes\outliner_detection\pic\DBSCAN1.png)
+![](./pic/DBSCAN1.png)
 
 ### 2.2 使用自定义测试样例
 
@@ -368,7 +368,7 @@ if __name__ == "__main__":
     plt.show()
 ```
 
-![](I:\cjn\learning\课外编程学习\祖传代码\cjn\machine_learn_reading_notes\outliner_detection\pic\DBSCAN2.png)
+![](./pic/DBSCAN2.png)
 
 **注意：**<font color='red'>可以看到在测试样例的两端，相比与孤立森林，DBSCAN能够很好地对“尖端”处的样本的分类。</font>
 
@@ -399,7 +399,7 @@ plt.scatter(normal_point[:,0],normal_point[:,1],edgecolors='k')
 plt.show()
 ```
 
-![](I:\cjn\learning\课外编程学习\祖传代码\cjn\machine_learn_reading_notes\outliner_detection\pic\DBSCAN3.png)
+![](./pic/DBSCAN3.png)
 
 ### 2.4 构造过滤函数
 
@@ -521,7 +521,7 @@ plt.xlabel(
 plt.show()
 ```
 
-![](I:\cjn\learning\课外编程学习\祖传代码\cjn\machine_learn_reading_notes\outliner_detection\pic\oneclassSVM.png)
+![](./pic/oneclassSVM.png)
 
 ### 3.2 核心代码
 
@@ -541,7 +541,7 @@ X_train_normal = X_train[labels>0]
 
 #### 进行剔除异常点之前
 
-![](I:\cjn\learning\课外编程学习\祖传代码\cjn\machine_learn_reading_notes\outliner_detection\pic\oneclassSVM2.png)
+![](./pic/oneclassSVM2.png)
 
 #### 剔除异常点之后
 
@@ -550,7 +550,7 @@ plt.scatter(X_train_normal[:,0],X_train_normal[:,1])
 plt.show()
 ```
 
-![](I:\cjn\learning\课外编程学习\祖传代码\cjn\machine_learn_reading_notes\outliner_detection\pic\oneclassSVM3.png)
+![](./pic/oneclassSVM3.png)
 
 ## 4. Local Outlier Factor（LOF）
 
@@ -624,7 +624,7 @@ if __name__ == "__main__":
     plt.subplots_adjust(top=0.9)
     plt.show()
 ```
-![](I:\cjn\learning\课外编程学习\祖传代码\cjn\machine_learn_reading_notes\outliner_detection\pic\LOF1.png)
+![](./pic/LOF1.png)
 
 ### 4.1 核心代码
 
@@ -645,7 +645,7 @@ plt.scatter(X_train[:,0],X_train[:,1])
 plt.show()
 ```
 
-![](I:\cjn\learning\课外编程学习\祖传代码\cjn\machine_learn_reading_notes\outliner_detection\pic\LOF2.png)
+![](./pic/LOF2.png)
 
 #### 剔除异常点之后
 
@@ -654,7 +654,7 @@ plt.scatter(X_train_normal[:,0],X_train_normal[:,1])
 plt.show()
 ```
 
-![](I:\cjn\learning\课外编程学习\祖传代码\cjn\machine_learn_reading_notes\outliner_detection\pic\LOF3.png)
+![](./pic/LOF3.png)
 
 
 
@@ -674,5 +674,5 @@ plt.show()
 
 [7] https://scikit-learn.org/stable/auto_examples/cluster/plot_dbscan.html#sphx-glr-auto-examples-cluster-plot-dbscan-py Local Outlier Factor官方示例
 
-[8]https://blog.csdn.net/hb707934728/article/details/71515160 LOF示例
+[8]https://blog.csdn.net/hb707934728/article/details/71515160 LOF示例
 
