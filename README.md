@@ -5,3 +5,4 @@
 
 《Feature Engineering for Machine Learning》 [思维导图](  https://github.com/cjn-chen/machine_learn_reading_notes/tree/master/Feature_Engineering_for_Machine_Learning)
 
+去除outlier [代码及演示](https://github.com/cjn-chen/machine_learn_reading_notes/tree/master/outlier_detection)
