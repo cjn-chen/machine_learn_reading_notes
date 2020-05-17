@@ -9,3 +9,5 @@
 ## 机器学习相关
 [周志华 机器学习](https://github.com/cjn-chen/machine_learn_reading_notes/tree/master/zhou_zhihua_minmap)
 
+## 算法相关
+[算法图解](https://github.com/cjn-chen/machine_learn_reading_notes)
