@@ -16,5 +16,5 @@
 
 ## 工具
 
-[时间序列常用的python包](https://github.com/cjn-chen/python_package_time_series/时间序列.md)
+[时间序列常用的python包](https://github.com/cjn-chen/machine_learn_reading_notes/blob/master/python_package_time_series/%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97.md)
 
